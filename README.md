@@ -1,8 +1,16 @@
-# In Mac OSX
-## Install up-to-date bash
-## Install up-td-date vim
+# Clone
+```
+$ git clone https://github.com/owlab-exp/dotvim.git ~/.vim
+```
 
-# Create a .vimrc
+# On Mac OSX
+## Install up-to-date bash
+## Install up-to-date vim
+
+# Create a .vimrc by linking
 ```
-$ ln -s .vim/.vimrc .
+$ ln -s ~/.vim/.vimrc ~/.vimrc
 ```
+# Re-install plugins
+Open `.vimrc` by `vi ~/.vimrc`.
+Execute `:PlugClean` and `:PlugInstall`
